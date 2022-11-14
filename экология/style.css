@@ -1,0 +1,69 @@
+.body{
+  
+    overflow-x: hidden;
+overflow-y: scroll;
+}
+.vatar{
+    width: 1000px;
+    height: 1000px;
+    padding-bottom: 300px;
+    padding-top:800px ;
+    padding-left: 200px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about_item{
+    width: 30%;
+}
+
+
+nav {
+  width:1280px;
+  margin: 0 auto;
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#000;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:#fff;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#d34d43;
+}
+table{
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    color:#656665
+    border:16px solid burlywood;
+
+}
